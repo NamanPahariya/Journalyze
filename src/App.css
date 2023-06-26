@@ -1,0 +1,407 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App{
+  background-color: black;
+  height: 2800px;
+  width: 1500px;
+}
+.bar{
+  background-color:rgb(71, 66, 66);
+  position: sticky;
+  top: 0.1px;
+  height: 40px;
+}
+.text{
+  margin-left: 70px;
+  position: relative;
+  left: 450px;
+  bottom: 30px;
+  color:white;
+  text-decoration:none;
+  font-weight: bold;
+  font-size: 25px;
+}
+.text:hover{
+color: orange;
+}
+
+.about-box{
+  background-color:black;
+  
+  
+}
+.about-outer{
+background-image: linear-gradient(#A10035,#3B9AE1);
+height: 500px;
+width:1100px ;
+position: absolute;
+top:130px;
+left: 15%;}
+
+h4{
+  position: relative;
+  top: -20px;
+  left: 60px;
+  color:peachpuff;
+  font-size: 30px;
+  
+}
+.about-image{
+  height: 240px;
+  width: 200px;
+   position: relative;
+  top: -420px;
+  right: 400px; 
+  border: 2px solid wheat;
+  padding: 5px;
+  background-color: rgb(0, 164, 30);
+  border-radius: 10px;
+}
+h2{
+  position: relative;
+  left: 60px;
+  top: -40px;
+}
+h6{
+  margin-left: 115px;
+position: relative;
+bottom: 10px;
+font-size: 20px;}
+
+.reader-button{
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  width: 140px;
+  position: relative;
+  top: 45px;
+  left: 1px;
+border-radius: 10px;
+border: 2px solid black;}
+.reader-button:hover{
+  color: red;
+}
+
+
+.coder-button{
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  width: 140px;
+  position: relative;
+  top: 45px;
+  left: 4px;
+border-radius: 10px;
+border: 2px solid black;
+}
+.coder-button:hover{
+  color: red;
+}
+.designer{
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  width: 140px;
+position: relative;
+top: 45px;
+left: 6px;
+border-radius: 10px;
+border: 2px solid black;
+
+}
+.designer:hover{
+  color: red;
+}
+/* .contact-box{
+  background-color: #5CB8E4;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  top: 30px;
+  left: 220px;
+  border-radius: 30px;
+  position: sticky;
+} */
+.fonts{
+  margin: 10px;
+}
+/* .form-design{
+  background-color: #083AA9;
+  width: 250px;
+} */
+
+/* .col{
+  margin-right: 120px;
+position: relative;
+top: 10px;} */
+
+.front{
+  height: 60px;
+  width: 60px;
+  margin-right: 430px;
+}
+
+.bar2{
+  color: red;
+  height: 100px;
+  width: 100px;
+}
+.text1{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+position: relative;
+right: 330px;
+bottom: 20px;
+top: 30px;
+color: green;}
+
+.sidebar-text{
+position: relative;
+right: 90px;
+}
+.card-img-top{
+  width: 250px;
+  border:2px solid #FCE700;
+  border-radius: 4px;
+}
+  
+.sidebar-box{
+  background-color: rgb(42, 38, 38);
+  height: 640px;
+  width: 200px;
+  /* position: relative;
+  bottom: 20px; */
+  position: sticky;
+  
+top:40px;
+  
+}
+.sidebar{
+  display: flex;
+
+}
+h3{
+  font-size: 15px;
+position: relative;
+top: 10px;
+color:white;
+font-weight: bold;}
+
+.design{
+  /* margin: 15px; */
+  border: none;
+  outline: none;
+  color: #FCE700;
+  background-color: transparent;
+  font-weight: bold;
+position: relative;
+left: -60px;  
+top: -0.1px;
+height: 80px;
+font-size: 30px;}
+.design:hover{
+  /* background-color:rgb(84, 76, 76) ; */
+  color: red;
+}
+.design1{
+position: relative;
+right: 4px;
+  margin: 10px;
+  color: #FCE700;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  left: -70px;
+  top: -2px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.design1:hover{
+color: red;}
+.front{
+  height: 30px;
+  position: relative;
+  right: 440px;
+  width: 80px;
+  top: 5px;
+}
+.box{
+display: flex;
+flex-direction: row;
+width: 1500px;
+flex-wrap: wrap;
+
+
+}
+.card{
+  width: 250px;
+  height: 500px;
+  background-color: rgb(84, 76, 76) ;opacity: 0.8;
+  border-radius: 20px;
+}
+.line{
+  position: relative;
+  top: 15px;
+  color: #FCE700;
+}
+.btn-primary{
+  color: #7fc7e9;
+  text-decoration: none;
+}
+.btn-primary:hover{
+  color:aqua;
+}
+.card-title{
+  color: #D9F8C4;
+  font-weight: bold;
+}
+.card-text{
+  color:#FFABE1;
+}
+.contact-box{
+  width: 100%;
+  height: 130vh;
+  /* background-image: linear-gradient(rgba(0,0,0,0.7),#3551b5); */
+  background-color: #3B9AE1;
+  background-size:cover;
+}
+form{
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid white; */
+  /* border-radius: 20px; */
+  margin-left: -80px;
+padding: 40px;
+padding-right: 60px;
+padding-left: -0px;
+padding-top: 1px;
+position: relative;
+left: 30%;
+top: 20%;
+}
+.input-group{
+  margin-bottom: 30px;
+  position: relative;
+  width: 220px;
+  display: flex;
+  margin: 10px;
+  height: 30px;
+  /* top: 20px; */
+
+}
+input,textarea{
+width: 350px;
+height: 10px;
+padding: 10px;
+outline: 0;
+border: 1px solid #fff;
+color:#fff;
+background:transparent;
+font-size: 15px;
+position: relative;
+top: 50px;
+left: 70px;
+}
+label{
+  height: 100%;
+  position: absolute;
+  left:70px;
+  top:45px;
+  padding:10px;
+  color:#fff;
+  cursor:text;
+  transition: 0.1s;
+}
+button{
+  padding: 10px;
+  color:#fff;
+  outline:none;
+  background: transparent;
+  border:1px solid #fff;
+  width: 300px;
+  cursor: pointer;
+  position: relative;
+  top: 40px;
+  left: 70px;
+  align-items: center;
+
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+top: 20px;  font-size: 12px;
+
+}
+.row{
+  display: flex;
+  align-items: center;
+margin-left: 14px;
+justify-content: space-between;
+position: relative;
+top: -70px;
+
+
+
+}
+.row.input-group{
+  flex-basis: 50%;
+}
+.word{
+color:black;  font-size: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+.row-2{
+  position: relative;
+  top: -40px;
+}
+.row-3{
+  position: relative;
+  top: -20px;
+}
+.sidebar-top{
+  font-size: 40px;
+}
